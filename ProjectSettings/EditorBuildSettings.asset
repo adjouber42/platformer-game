@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/tuto red blue yellow.unity
     guid: 71f7414c63a4840b9b2be1396985c6ae
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/level 2.unity
     guid: 30422643f6a1042bb81fe0936dcaabcd
   - enabled: 1

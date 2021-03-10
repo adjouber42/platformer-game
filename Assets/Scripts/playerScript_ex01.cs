@@ -25,7 +25,7 @@ public class playerScript_ex01 : MonoBehaviour
 
     void Start()
     {
-        cam_size = 1.5f;
+        cam_size = 2.5f;
         nb_jump = 0;
         speed = 2;
         jump = 250f;
@@ -111,6 +111,8 @@ public class playerScript_ex01 : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Escape))
+            Application.Quit();
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             if (gameObject.name == "player_1")
@@ -119,7 +121,7 @@ public class playerScript_ex01 : MonoBehaviour
                 speed = speed_1;
                 jump = jump_1;
                 power = power_1;
-                cam_size = 1.5f;
+                cam_size = 2.5f;
             }
             else
                 active = false;
@@ -132,7 +134,7 @@ public class playerScript_ex01 : MonoBehaviour
                 speed = speed_2;
                 jump = jump_2;
                 power = power_2;
-                cam_size = 1.5f;
+                cam_size = 2.5f;
             }
             else
                 active = false;
@@ -145,7 +147,7 @@ public class playerScript_ex01 : MonoBehaviour
                 speed = speed_3;
                 jump = jump_3;
                 power = power_3;
-                cam_size = 1.5f;
+                cam_size = 2.5f;
             }
             else
                 active = false;
@@ -184,10 +186,10 @@ public class playerScript_ex01 : MonoBehaviour
             {
                 if (gameObject.tag == "purple_object")
                 {
-                    if (cam_size == 1.5f)
+                    if (cam_size == 2.5f)
                         cam_size = 5.0f;
                     else
-                        cam_size = 1.5f;   
+                        cam_size = 2.5f;   
                 }
                 if (gameObject.tag == "white_object")
                 {

@@ -13,9 +13,9 @@ public class Turret : MonoBehaviour
     void Start()
     {
         if (i == 0)
-            speed = -0.01f;
+            speed = -0.05f;
         else
-            speed = 0.01f;
+            speed = 0.05f;
         currentLevel = SceneManager.GetActiveScene();
         bullet = this.gameObject.transform.GetChild(0).gameObject;
     }
