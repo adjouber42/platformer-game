@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 333, y: 271}
   m_MaxSize: {x: 14003, y: 10021}
   vertical: 0
-  controlID: 81
+  controlID: 58
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -99,7 +99,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 158
+  controlID: 209
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -276,7 +276,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 14003, y: 14042}
   vertical: 1
-  controlID: 16
+  controlID: 57
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -301,7 +301,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 17
+  controlID: 140
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -395,20 +395,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scripts
     m_Globs: []
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\drago\Documents\GitHub\platformer-game
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: f0390000
-    m_LastClickedID: 14832
+    m_SelectedIDs: f2390000
+    m_LastClickedID: 14834
     m_ExpandedIDs: 00000000e639000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -489,7 +489,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 53}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 110
@@ -563,7 +563,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: beceffff1ed0ffff66d0ffff2ed1ffff1cd2ffff22d3ffff76d3ffff58d5ffffa0deffff78e0ffffaae1ffff5ce2ffff28e3ffff6ce3ffff84e3ffff18e7ffff6ae8ffffa4e8ffff5ee9fffffce9ffff4ceaffff64eaffff92eeffffe8efffff26f0ffffe4f0ffff86f1ffff98f2ffff
+      m_ExpandedIDs: 2c18ffff4418ffffea18ffff401affffb61affff521bffff3a1cffff521cffff541cffffa61dffff181effffb01effff8e1fffffa61fffffa81fffff5422ffff6c22ffff1423fffffc27ffff5428ffff6c28fffffa2bffff4c2dffff502dffff542effff6c2effffa032fffff633fffffa33ffff9234ffff7637ffffd837fffff037ffff243cffff7a3dfffff03dffff883effff8c47ffffa447ffffdc4bffff364dffffb04dffff4c4effffa450ffffa051ffff7a53ffff0256ffffb689ffff1094ffffe49dffffe0d9ffff9cddffff6edfffffb8dfffff0ee1ffff5ae1ffffc4e2ffff00e4ffffcce4ffffb2f1fffff2f5ffff5efbffff08a00000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -624,9 +624,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 563.48987, y: 316.11774, z: -1980.2812}
+    m_Target: {x: 5.809057, y: 4.220669, z: -2053.583}
     speed: 2
-    m_Value: {x: 563.48987, y: 316.11774, z: -1980.2812}
+    m_Value: {x: 5.809057, y: 4.220669, z: -2053.583}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -677,9 +677,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 475.29535
+    m_Target: 5.1246896
     speed: 2
-    m_Value: 475.29535
+    m_Value: 5.1246896
   m_Ortho:
     m_Target: 1
     speed: 2
